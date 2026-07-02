@@ -19,7 +19,6 @@ Universal File Converter არის Python აპლიკაცია, რო
 
 ```
 Universal File Converter/
-├── .venv/                       # ვირტუალური გარემო (optional)
 ├── app/
 │   ├── core/
 │   │   ├── constants.py         # აპის ფერები, პრესეტები და სეტები
@@ -32,7 +31,7 @@ Universal File Converter/
 ├── icons/                       # აპისთვის საჭირო PNG აიქონები
 ├── screenshots/                 # UI სქრინშოტები და პრეზენტაცია
 ├── requirements.txt             # საჭირო Python პაკეტები
-├── run.py                       # აპის ახალი გაშვების წერტილი
+├── main.py                      # აპის გაშვების წერტილი
 └── README.md                    # ამ დოკუმენტის წესი და ინსტრუქციები
 ```
 
@@ -65,7 +64,7 @@ pip install -r requirements.txt
 ## გაშვება
 
 ```powershell
-python run.py
+python main.py
 ```
 
 > თუ `PowerShell`-ში სქრიპტების გაშვება დაბლოკილია, გამოიყენეთ:
