@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# IDE/editor files
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# Logs and runtime files
+*.log
+pip-log.txt
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Coverage
+.coverage
+htmlcov/
+.coverage.*
+
+# Test results
+.pytest_cache/
+
+# Backup files
+*.bak
+*.tmp
